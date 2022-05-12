@@ -1,1 +1,3 @@
-PYTHON/.ipynb_checkpoints
+
+*.swp
+PYTHON/.ipynb_checkpoints/
