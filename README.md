@@ -1,13 +1,22 @@
-# memoire
+# Suivi de l’humidité de surface des sols par télédétection micro-onde et optique dans le bas-fond d’Itchedjiro, Bénin
 
-TO DO
+## Contexte:
 
-Au Bénin, l’insécurité alimentaire constitue un problème majeur et la situation est telle que l'agriculture ne répond plus au besoin de la population. L'agriculture, majoritairement pluviale, est vulnérable face aux changements climatiques, qui engendrent une augmentation de la fréquence et de l’intensité des vagues de sècheresses. Dans cette région marquée par la variabilité climatique, les bas-fonds constituent des surfaces de très grand intérêt. En effet, ces sols fertiles présentent, aux yeux de la population, un intérêt agro-économique grandissant grâce à leurs propriétés pédologiques et hydrologiques favorables au développement agricole. Mais, actuellement, seulement 15\% des bas-fonds sont exploités, à cause du manque d'aménagement et de connaissances sur le fonctionnement hydrologique de ces bas-fonds.
+Au Bénin, l’agriculture pluviale est menacée par les changements climatiques qui engendrent une augmentation des vagues de sècheresses. Dans cet environne- ment marqué par la variabilité climatique, les bas-fonds constituent des surfaces agricoles très grand intérêt, mais encore sous-exploités. Ce mémoire s’inscrit dans le cadre du projet BANFONBE dont l’objectif est d’apporter un appui technique et scientifique pour la gestion intégrée des eaux dans les bas-fonds au Bénin. Le but est d’assurer, à terme, une sécurité alimentaire et de renforcer l’autonomie des paysans en augmentant la productivité agricole. L’objectif général du mémoire est d’implémenter une méthodologie innovante basée sur de la télédétection permettant de générer de l’information à haute ré- solution spatio-temporelle de l’humidité de surface des sols. L’approche proposée est basée sur l’inversion du Water Cloud Model, en utilisant des données radar enregistrées en polarisation VV et des données NDVI dérivées d’images optiques. Des informations à haute résolution temporelle, collectées à l’aide des capteurs in situ (humidimètre, pluviomètres), sont utilisés pour valider les informations déduites par télédétection. Des résultats cohérents sont obtenus avec les mesures in situ à 20 cm de profondeur (R² = 0,71 et MAE = 6% vol). Les résultats sont encourageants, mais l’évaluation de la méthode sur d’autres sites d’étude et avec des données de terrain calibrées est souhaitée. D’autre part, les teneurs en eau du sol estimées sont confrontées aux produits SMAP. Il en ressort que, les estimations produites peuvent refléter les tendances de niveaux d’humidité du sol, mais manquent les évènements de courte durée.
 
-Ce mémoire s'inscrit dans le cadre du projet BANFONBE dont l'objectif principal est d'apporter un appui technique et scientifique pour la gestion intégrée des eaux dans les bas-fonds au Bénin. Le but est d'assurer, à terme, une sécurité alimentaire et de renforcer l’autonomie des paysans en augmentant la productivité agricole. 
+## Méthodologie:
 
-L'objectif général du mémoire est d'implémenter une méthodologie innovante basée sur de la télédétection, de la technologie SMART et de la fouille des données, permettant de générer de l'information à haute résolution spatio-temporelle de l'humidité du sol de la zone racinaire d'un bas-fond au Bénin. L'approche proposée est basée sur l'estimation de la \textit{SM} sur des parcelles homogènes au sein du bas-fond. Ces parcelles sont délimitées par processus de segmentation \textit{Mean Shift}, basé sur composite \textit{NDVI} généré sur la période 2019-2021. Les estimations de \textit{SM} sont fondées sur l'inversion du \ac{wcm} couplé à l'\ac{iem}, en utilisant des données radar enregistrées en polarisation VV et des données NDVI dérivées d'images optiques. Le choix du modèle a été motivé par des résultats encourageants quant à son application à des environnements agricoles. De plus, il représente un bon compromis entre le domaine de validité et la complexité d'un modèle. Des informations à haute résolution temporelle, collectées à l’aide des capteurs in-situ (humidimètre, pluviomètres), sont utilisés pour valider les informations déduites par télédétection. 
+La méthodologie employée dans ce mémoire s’articule en trois axes. Il s’agit i) de segmenter la zone d'étude en parcelles homogènes ; ii) d’estimer et de cartographier l’humidité du sol par couplage d’images optiques et radars ; iii) de valider les estimations avec des observations de terrain in situ et des données \ac{smap}.
 
-Des résultats cohérents sont obtenus avec les mesures in-situ à 20 cm de profondeur (\textit{R²}= 0,71 et MAE = 6\% vol). Les teneurs en eau du sol observées et estimées montrent une évolution relativement similaire aux mesures de terrains. Les estimations produites, agrégées mensuellement, peuvent refléter les tendances de niveaux d'humidité du sol, mais manquent les évènements de courte durée. En effectuant des cartographies à l'aide de données satellitaires acquises sensiblement en même temps que les observations in situ, la qualité des estimations serait améliorée. Il est également suggéré d'approfondir la méthodologie de segmentation du bas-fond en valorisant d'autres co-variables environnementales. Les résultats sont encourageants, mais l’évaluation de la méthode sur d’autres sites d’étude et avec des données de terrains calibrées est souhaitée. La variabilité spatiale de l'humidité a été étudiée en fonction des paramètres facilement mesurables et de données génériques. Cependant, aucun résultat concluant n'a été observé.
+[Flowchart.pdf](https://github.com/rkahnGitHub/memoire/files/8884162/Flowchart.pdf)
 
-\hspace{-0.1cm}\textbf{Mots-clés}: Humidité du sol, Télédétection optique, Sentinel, SMAP, Bénin, Bas fond.
+## Les fichiers:
+
+PYHTON: Contient les codes 
+EXPORT: Contient les input
+FIGURES: Contient les output
+
+## Rapport:
+
+Le mémoire complet est disponible à l'adresse suivante:
+
