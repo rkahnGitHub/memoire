@@ -8,7 +8,7 @@ Au Bénin, l’agriculture pluviale est menacée par les changements climatiques
 
 La méthodologie employée dans ce mémoire s’articule en trois axes. Il s’agit i) de segmenter la zone d'étude en parcelles homogènes ; ii) d’estimer et de cartographier l’humidité du sol par couplage d’images optiques et radars ; iii) de valider les estimations avec des observations de terrain in situ et des données \ac{smap}.
 
-[Flowchart.pdf](https://github.com/rkahnGitHub/memoire/files/8884162/Flowchart.pdf)
+![Flowchart-1](https://user-images.githubusercontent.com/104996243/173192989-1a5d0127-8d63-4b96-8bd2-4836a535b880.png "Organigramme de la démarche méthodologique")
 
 ## Les fichiers:
 
