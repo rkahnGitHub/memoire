@@ -12,11 +12,12 @@ La méthodologie employée dans ce mémoire s’articule en trois axes. Il s’a
 
 ## Les fichiers:
 
-PYHTON: Contient les codes 
-EXPORT: Contient les input
-FIGURES: Contient les output
+- Item PYHTON: Contient les codes 
+- Item EXPORT: Contient les fichiers en entrée
+- Item FIGURES: Contient les fichiers en sortie
 
 ## Rapport:
 
-Le mémoire complet est disponible à l'adresse suivante:
+Le mémoire complet est disponible à l'adresse suivante :
 
+"lien dial"
