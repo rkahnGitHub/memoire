@@ -1,6 +1,6 @@
 # Suivi de l’humidité de surface des sols par télédétection micro-onde et optique dans le bas-fond d’Itchedjiro, Bénin
 
-## Abstract
+## Abstract:
 Le résultat essentiel de ce travail est la mise en place d’une approche opérationnelle
 pour cartographier la SM à haute résolution spatiale (jusqu’à l’échelle de la parcelle) dans
 le bas-fond d’Itchedjiro.
